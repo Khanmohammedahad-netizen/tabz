@@ -212,7 +212,7 @@ export default function HomePage() {
                 description: 'Slow-roasted perfection',
                 icon: Utensils,
                 color: 'orange',
-                image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80'
               },
               {
                 title: 'Kebabs & Tikka',

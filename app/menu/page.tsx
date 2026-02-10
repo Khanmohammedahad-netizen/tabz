@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { DietaryBadge, Badge } from '@/components/ui/Badge';
-import { Search, Filter, ShoppingCart } from 'lucide-react';
+import { Search, ShoppingCart, Star, TrendingUp, Flame } from 'lucide-react';
 import Link from 'next/link';
 import menuData from '@/data/menuData.json';
 import { MenuItem as MenuItemType, MenuCategory, DietaryType } from '@/types';
@@ -106,10 +106,10 @@ export default function MenuPage() {
                             className="px-4 py-2 bg-charcoal-800 border border-charcoal-700 rounded-lg text-charcoal-100 focus:outline-none focus:border-gold-500 transition-colors"
                         >
                             <option value="all">All Types</option>
-                            <option value="veg">🌿 Vegetarian</option>
-                            <option value="non-veg">🍗 Non-Veg</option>
-                            <option value="seafood">🐟 Seafood</option>
-                            <option value="dessert">🍰 Desserts</option>
+                            <option value="veg">Vegetarian</option>
+                            <option value="non-veg">Non-Veg</option>
+                            <option value="seafood">Seafood</option>
+                            <option value="dessert">Desserts</option>
                         </select>
                     </div>
 
@@ -140,24 +140,27 @@ export default function MenuPage() {
                                 {/* Items Grid */}
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                     {categoryItems.map((item) => (
-                                        <Card key={item.id} hover3d className="group cursor-pointer">
-                                            {/* Item Image Placeholder */}
-                                            <div className="relative h-48 bg-gradient-to-br from-charcoal-800 to-charcoal-900 flex items-center justify-center overflow-hidden">
-                                                <div className="text-7xl group-hover:scale-110 transition-transform duration-500">
-                                                    {getDishEmoji(item.category)}
-                                                </div>
+                                        <Card key={item.id} hover3d className="group cursor-pointer overflow-hidden">
+                                            {/* Item Image */}
+                                            <div className="relative h-48 overflow-hidden">
+                                                <img
+                                                    src={getCategoryImage(item.category)}
+                                                    alt={item.name}
+                                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950 via-charcoal-950/50 to-transparent"></div>
 
                                                 {/* Badges Overlay */}
                                                 <div className="absolute top-3 left-3 flex flex-wrap gap-2">
                                                     <DietaryBadge type={item.dietary} />
                                                     {item.popular && (
-                                                        <Badge variant="popular" className="text-xs">
-                                                            🏆 Popular
+                                                        <Badge variant="popular" className="text-xs flex items-center gap-1">
+                                                            <TrendingUp size={12} /> Popular
                                                         </Badge>
                                                     )}
                                                     {item.featured && (
-                                                        <Badge variant="featured" className="text-xs">
-                                                            ⭐ Featured
+                                                        <Badge variant="featured" className="text-xs flex items-center gap-1">
+                                                            <Star size={12} /> Featured
                                                         </Badge>
                                                     )}
                                                 </div>
@@ -165,8 +168,8 @@ export default function MenuPage() {
                                                 {/* Spicy Level */}
                                                 {item.spicyLevel && item.spicyLevel > 0 && (
                                                     <div className="absolute top-3 right-3">
-                                                        <Badge variant="spicy" className="text-xs">
-                                                            {'🌶️'.repeat(item.spicyLevel)}
+                                                        <Badge variant="spicy" className="text-xs flex items-center gap-1">
+                                                            <Flame size={12} /> {item.spicyLevel}
                                                         </Badge>
                                                     </div>
                                                 )}
@@ -210,7 +213,7 @@ export default function MenuPage() {
                 {/* No Results */}
                 {filteredItems.length === 0 && (
                     <div className="text-center py-20">
-                        <div className="text-6xl mb-4">🔍</div>
+                        <Search className="mx-auto mb-4 text-charcoal-600" size={64} />
                         <h3 className="text-2xl font-playfair font-semibold mb-2">No dishes found</h3>
                         <p className="text-charcoal-400">Try adjusting your filters or search query</p>
                     </div>
@@ -220,28 +223,27 @@ export default function MenuPage() {
     );
 }
 
-// Helper function to get emoji for category
-function getDishEmoji(category: string): string {
-    const emojiMap: Record<string, string> = {
-        'chicken-starters': '🍗',
-        'mutton-starters': '🍖',
-        'fish-seafood': '🐟',
-        'veg-starters': '🥗',
-        'chinese-non-veg': '🥡',
-        'chinese-veg': '🥬',
-        'chicken-curries': '🍛',
-        'mutton-curries': '🍲',
-        'veg-curries': '🥘',
-        'rice-pulao': '🍚',
-        'biryani': '🍛',
-        'mandi': '🥙',
-        'burgers': '🍔',
-        'sandwiches': '🥪',
-        'wraps': '🌯',
-        'fries-nuggets': '🍟',
-        'broast': '🍗',
-        'desserts': '🍰',
-        'party-orders': '🎉',
+// Helper function to get category-specific images from Unsplash
+function getCategoryImage(category: string): string {
+    const imageMap: Record<string, string> = {
+        'chicken-starters': 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80', // Chicken kebabs
+        'mutton-starters': 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80', // Mutton kebabs
+        'fish-seafood': 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80', // Grilled fish
+        'veg-starters': 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80', // Paneer tikka
+        'chinese-non-veg': 'https://images.unsplash.com/photo-1525755662778-989d0524087e?w=600&q=80', // Chicken 65
+        'chinese-veg': 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80', // Chilli paneer
+        'chicken-curries': 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80', // Butter chicken
+        'mutton-curries': 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80', // Mutton curry
+        'veg-curries': 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=80', // Paneer curry
+        'rice-pulao': 'https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=600&q=80', // Rice
+        'biryani': 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80', // Biryani
+        'mandi': 'https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=600&q=80', // Mandi rice platter
+        'burgers': 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80', // Burger
+        'sandwiches': 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80', // Sandwich
+        'wraps': 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&q=80', // Wrap
+        'fries-nuggets': 'https://images.unsplash.com/photo-1576107232684-1279f390859f?w=600&q=80', // Fries
+        'broast': 'https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80', // Fried chicken
+        'desserts': 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80', // Indian sweets
     };
-    return emojiMap[category] || '🍽️';
+    return imageMap[category] || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80'; // Default food
 }
