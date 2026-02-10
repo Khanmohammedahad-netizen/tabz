@@ -1,0 +1,1489 @@
+{
+  "categories": [
+    {
+      "id": "chicken-starters",
+      "name": "Chicken Starters",
+      "description": "Succulent grilled chicken in exotic marinades",
+      "icon": "flame",
+      "order": 1
+    },
+    {
+      "id": "mutton-starters",
+      "name": "Mutton Starters & Kebabs",
+      "description": "Premium mutton kebabs and roasts",
+      "icon": "meat",
+      "order": 2
+    },
+    {
+      "id": "fish-seafood",
+      "name": "Fish & Seafood",
+      "description": "Fresh catch from the ocean",
+      "icon": "fish",
+      "order": 3
+    },
+    {
+      "id": "veg-starters",
+      "name": "Veg Starters",
+      "description": "Garden fresh vegetarian delights",
+      "icon": "leaf",
+      "order": 4
+    },
+    {
+      "id": "chinese-non-veg",
+      "name": "Chinese - Non Veg",
+      "description": "Indo-Chinese favorites",
+      "icon": "wok",
+      "order": 5
+    },
+    {
+      "id": "chinese-veg",
+      "name": "Chinese - Veg",
+      "description": "Vegetarian Chinese specialties",
+      "icon": "vegetable",
+      "order": 6
+    },
+    {
+      "id": "chicken-curries",
+      "name": "Chicken Curries",
+      "description": "Rich and aromatic gravies",
+      "icon": "curry",
+      "order": 7
+    },
+    {
+      "id": "mutton-curries",
+      "name": "Mutton Curries",
+      "description": "Slow-cooked mutton perfection",
+      "icon": "pot",
+      "order": 8
+    },
+    {
+      "id": "veg-curries",
+      "name": "Veg Curries",
+      "description": "Vegetarian curry masterpieces",
+      "icon": "pepper",
+      "order": 9
+    },
+    {
+      "id": "rice-pulao",
+      "name": "Rice & Pulao",
+      "description": "Fragrant rice preparations",
+      "icon": "rice",
+      "order": 10
+    },
+    {
+      "id": "biryani",
+      "name": "Hyderabadi Biryani",
+      "description": "Authentic Hyderabadi dum biryani",
+      "icon": "crown",
+      "order": 11
+    },
+    {
+      "id": "mandi",
+      "name": "Mandi",
+      "description": "Arabian slow-roasted delicacy",
+      "icon": "star",
+      "order": 12
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "description": "Gourmet chicken burgers",
+      "icon": "burger",
+      "order": 13
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "description": "Grilled to perfection",
+      "icon": "sandwich",
+      "order": 14
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps",
+      "description": "Packed with flavor",
+      "icon": "wrap",
+      "order": 15
+    },
+    {
+      "id": "fries-nuggets",
+      "name": "Fries & Nuggets",
+      "description": "Crispy accompaniments",
+      "icon": "fries",
+      "order": 16
+    },
+    {
+      "id": "broast",
+      "name": "Chicken Broast",
+      "description": "Crispy fried chicken",
+      "icon": "drumstick",
+      "order": 17
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet royal endings",
+      "icon": "dessert",
+      "order": 18
+    },
+    {
+      "id": "party-orders",
+      "name": "Party & Bulk Orders",
+      "description": "For celebrations & gatherings",
+      "icon": "celebration",
+      "order": 19
+    }
+  ],
+  "items": [
+    {
+      "id": "chi-tikka-001",
+      "name": "Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Classic tandoori chicken tikka with aromatic spices",
+      "basePrice": 299,
+      "variants": [
+        { "type": "Half", "price": 299 },
+        { "type": "Full", "price": 549 }
+      ],
+      "image": "/images/chicken-tikka.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-afgha-002",
+      "name": "Afghani Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Creamy, mildly spiced white tikka",
+      "basePrice": 329,
+      "variants": [
+        { "type": "Half", "price": 329 },
+        { "type": "Full", "price": 599 }
+      ],
+      "image": "/images/afghani-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "chi-malai-003",
+      "name": "Malai Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Tender chicken in cashew and cream marinade",
+      "basePrice": 329,
+      "variants": [
+        { "type": "Half", "price": 329 },
+        { "type": "Full", "price": 599 }
+      ],
+      "image": "/images/malai-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "chi-hariyal-004",
+      "name": "Hariyali Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Green marinade with mint and coriander",
+      "basePrice": 329,
+      "variants": [
+        { "type": "Half", "price": 329 },
+        { "type": "Full", "price": 599 }
+      ],
+      "image": "/images/hariyali-chicken.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-turkish-005",
+      "name": "Turkish Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Mediterranean style grilled chicken",
+      "basePrice": 349,
+      "variants": [
+        { "type": "Half", "price": 349 },
+        { "type": "Full", "price": 629 }
+      ],
+      "image": "/images/turkish-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-arabian-006",
+      "name": "Arabian Chicken Tikka",
+      "category": "chicken-starters",
+      "description": "Middle Eastern spice blend",
+      "basePrice": 349,
+      "variants": [
+        { "type": "Half", "price": 349 },
+        { "type": "Full", "price": 629 }
+      ],
+      "image": "/images/arabian-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-sheesh-007",
+      "name": "Sheesh Tawouk",
+      "category": "chicken-starters",
+      "description": "Lebanese garlic chicken skewers",
+      "basePrice": 359,
+      "variants": [
+        { "type": "Half", "price": 359 },
+        { "type": "Full", "price": 649 }
+      ],
+      "image": "/images/sheesh-tawouk.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "chi-chopan-008",
+      "name": "Chicken Chopan",
+      "category": "chicken-starters",
+      "description": "Afghan style marinated chicken chops",
+      "basePrice": 369,
+      "variants": [
+        { "type": "Half", "price": 369 },
+        { "type": "Full", "price": 669 }
+      ],
+      "image": "/images/chicken-chopan.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-bbq-009",
+      "name": "Chicken BBQ",
+      "category": "chicken-starters",
+      "description": "Smoky grilled chicken half or full",
+      "basePrice": 199,
+      "variants": [
+        { "type": "Half", "price": 199 },
+        { "type": "Full", "price": 359 }
+      ],
+      "image": "/images/chicken-bbq.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-tangdi-010",
+      "name": "Chicken Tangdi",
+      "category": "chicken-starters",
+      "description": "Juicy drumsticks in tandoori masala",
+      "basePrice": 299,
+      "image": "/images/chicken-tangdi.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "chi-wings-011",
+      "name": "BBQ Wings",
+      "category": "chicken-starters",
+      "description": "Crispy barbecue chicken wings",
+      "basePrice": 249,
+      "image": "/images/bbq-wings.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-boti-012",
+      "name": "Mutton Boti Kebab",
+      "category": "mutton-starters",
+      "description": "Tender mutton cubes in rich spices",
+      "basePrice": 429,
+      "variants": [
+        { "type": "Half", "price": 429 },
+        { "type": "Full", "price": 799 }
+      ],
+      "image": "/images/mutton-boti.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-sheekh-013",
+      "name": "Mutton Sheekh Kebab",
+      "category": "mutton-starters",
+      "description": "Minced mutton skewers with herbs",
+      "basePrice": 449,
+      "variants": [
+        { "type": "Half", "price": 449 },
+        { "type": "Full", "price": 829 }
+      ],
+      "image": "/images/mutton-sheekh.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-afghani-014",
+      "name": "Afghani Mutton Kebab",
+      "category": "mutton-starters",
+      "description": "Creamy Afghani style mutton",
+      "basePrice": 469,
+      "variants": [
+        { "type": "Half", "price": 469 },
+        { "type": "Full", "price": 869 }
+      ],
+      "image": "/images/afghani-mutton.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "mut-chops-015",
+      "name": "Mutton Chops",
+      "category": "mutton-starters",
+      "description": "Premium mutton chops tandoori style",
+      "basePrice": 899,
+      "image": "/images/mutton-chops.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-shami-016",
+      "name": "Mutton Shami Kebab",
+      "category": "mutton-starters",
+      "description": "Soft minced mutton patties - 5 pieces",
+      "basePrice": 299,
+      "variants": [
+        { "type": "5pcs", "price": 299 }
+      ],
+      "image": "/images/shami-kebab.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "mut-shikam-017",
+      "name": "Mutton Shikampur",
+      "category": "mutton-starters",
+      "description": "Hyderabadi style stuffed kebab - 5 pieces",
+      "basePrice": 329,
+      "variants": [
+        { "type": "5pcs", "price": 329 }
+      ],
+      "image": "/images/shikampur.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-roast-018",
+      "name": "Mutton Roast",
+      "category": "mutton-starters",
+      "description": "Slow roasted mutton with spices",
+      "basePrice": 479,
+      "variants": [
+        { "type": "Half", "price": 479 },
+        { "type": "Full", "price": 889 }
+      ],
+      "image": "/images/mutton-roast.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "mut-raan-019",
+      "name": "Dum ki Raan (Full Lamb Leg)",
+      "category": "mutton-starters",
+      "description": "Whole lamb leg slow cooked in dum style",
+      "basePrice": 2499,
+      "image": "/images/dum-raan.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "tags": ["signature", "premium"],
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-kareli-020",
+      "name": "Kareli",
+      "category": "mutton-starters",
+      "description": "Traditional Hyderabadi mutton delicacy",
+      "basePrice": 499,
+      "image": "/images/kareli.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-talawa-021",
+      "name": "Mutton Talawa Gosht",
+      "category": "mutton-starters",
+      "description": "Deep fried mutton with bones",
+      "basePrice": 489,
+      "variants": [
+        { "type": "Half", "price": 489 },
+        { "type": "Full", "price": 899 }
+      ],
+      "image": "/images/talawa-gosht.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "mut-talawa-boneless-022",
+      "name": "Mutton Talawa Gosht (Boneless)",
+      "category": "mutton-starters",
+      "description": "Deep fried boneless mutton pieces",
+      "basePrice": 539,
+      "variants": [
+        { "type": "Half", "price": 539 },
+        { "type": "Full", "price": 999 }
+      ],
+      "image": "/images/talawa-boneless.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "fish-tikka-023",
+      "name": "Fish Tikka",
+      "category": "fish-seafood",
+      "description": "Grilled fish in tandoori masala",
+      "basePrice": 349,
+      "image": "/images/fish-tikka.webp",
+      "dietary": "seafood",
+      "spicyLevel": 2
+    },
+    {
+      "id": "prawns-bbq-024",
+      "name": "Prawns BBQ",
+      "category": "fish-seafood",
+      "description": "Succulent grilled prawns",
+      "basePrice": 549,
+      "image": "/images/prawns-bbq.webp",
+      "dietary": "seafood",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "chilli-prawns-025",
+      "name": "Chilli Prawns",
+      "category": "fish-seafood",
+      "description": "Indo-Chinese style spicy prawns",
+      "basePrice": 579,
+      "image": "/images/chilli-prawns.webp",
+      "dietary": "seafood",
+      "spicyLevel": 3
+    },
+    {
+      "id": "apollo-fish-026",
+      "name": "Apollo Fish",
+      "category": "fish-seafood",
+      "description": "Hyderabadi style fried fish",
+      "basePrice": 379,
+      "image": "/images/apollo-fish.webp",
+      "dietary": "seafood",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "loose-prawns-027",
+      "name": "Loose Prawns",
+      "category": "fish-seafood",
+      "description": "Spicy fried prawns",
+      "basePrice": 599,
+      "image": "/images/loose-prawns.webp",
+      "dietary": "seafood",
+      "spicyLevel": 3
+    },
+    {
+      "id": "paneer-tikka-028",
+      "name": "Paneer Tikka",
+      "category": "veg-starters",
+      "description": "Classic cottage cheese tikka",
+      "basePrice": 249,
+      "variants": [
+        { "type": "Half", "price": 249 },
+        { "type": "Full", "price": 459 }
+      ],
+      "image": "/images/paneer-tikka.webp",
+      "dietary": "veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "hariyali-paneer-029",
+      "name": "Hariyali Paneer Tikka",
+      "category": "veg-starters",
+      "description": "Green marinade paneer tikka",
+      "basePrice": 269,
+      "variants": [
+        { "type": "Half", "price": 269 },
+        { "type": "Full", "price": 499 }
+      ],
+      "image": "/images/hariyali-paneer.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "afghani-paneer-030",
+      "name": "Afghani Paneer Tikka",
+      "category": "veg-starters",
+      "description": "Creamy Afghani style paneer",
+      "basePrice": 269,
+      "variants": [
+        { "type": "Half", "price": 269 },
+        { "type": "Full", "price": 499 }
+      ],
+      "image": "/images/afghani-paneer.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "paneer-cheese-031",
+      "name": "Paneer Cheese Tikka",
+      "category": "veg-starters",
+      "description": "Cheese stuffed paneer tikka",
+      "basePrice": 289,
+      "variants": [
+        { "type": "Half", "price": 289 },
+        { "type": "Full", "price": 529 }
+      ],
+      "image": "/images/paneer-cheese-tikka.webp",
+      "dietary": "veg",
+      "featured": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "soya-chaap-032",
+      "name": "Tandoori Soya Chaap",
+      "category": "veg-starters",
+      "description": "Soya chaap in tandoori masala",
+      "basePrice": 239,
+      "variants": [
+        { "type": "Half", "price": 239 },
+        { "type": "Full", "price": 439 }
+      ],
+      "image": "/images/soya-chaap.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "soya-afghani-033",
+      "name": "Afghani Soya Chaap",
+      "category": "veg-starters",
+      "description": "Creamy Afghani soya chaap",
+      "basePrice": 249,
+      "variants": [
+        { "type": "Half", "price": 249 },
+        { "type": "Full", "price": 459 }
+      ],
+      "image": "/images/afghani-soya.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "chi65-wet-034",
+      "name": "Chicken 65 (Wet)",
+      "category": "chinese-non-veg",
+      "description": "Spicy chicken in tangy gravy",
+      "basePrice": 279,
+      "image": "/images/chicken65-wet.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "chi65-dry-035",
+      "name": "Chicken 65 (Dry)",
+      "category": "chinese-non-veg",
+      "description": "Crispy spicy chicken",
+      "basePrice": 259,
+      "image": "/images/chicken65-dry.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "chilli-chi-036",
+      "name": "Chilli Chicken",
+      "category": "chinese-non-veg",
+      "description": "Indo-Chinese classic",
+      "basePrice": 289,
+      "image": "/images/chilli-chicken.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "garlic-chi-037",
+      "name": "Garlic Chicken",
+      "category": "chinese-non-veg",
+      "description": "Garlicky stir-fried chicken",
+      "basePrice": 299,
+      "image": "/images/garlic-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-manch-038",
+      "name": "Chicken Manchuria",
+      "category": "chinese-non-veg",
+      "description": "Chicken in Manchurian sauce",
+      "basePrice": 279,
+      "image": "/images/chicken-manchuria.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "fried-chi-039",
+      "name": "Fried Chicken",
+      "category": "chinese-non-veg",
+      "description": "Crispy golden fried chicken",
+      "basePrice": 269,
+      "image": "/images/fried-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chilli-paneer-040",
+      "name": "Chilli Paneer",
+      "category": "chinese-veg",
+      "description": "Spicy paneer cubes",
+      "basePrice": 239,
+      "image": "/images/chilli-paneer.webp",
+      "dietary": "veg",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "paneer65-041",
+      "name": "Paneer 65",
+      "category": "chinese-veg",
+      "description": "Crispy paneer 65",
+      "basePrice": 229,
+      "image": "/images/paneer65.webp",
+      "dietary": "veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "cheesy-broccoli-042",
+      "name": "Cheesy Broccoli",
+      "category": "chinese-veg",
+      "description": "Broccoli in cheesy sauce",
+      "basePrice": 249,
+      "image": "/images/cheesy-broccoli.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "kadai-chi-043",
+      "name": "Kadai Chicken",
+      "category": "chicken-curries",
+      "description": "Chicken in kadai masala",
+      "basePrice": 299,
+      "variants": [
+        { "type": "Half", "price": 299 },
+        { "type": "Full", "price": 549 }
+      ],
+      "image": "/images/kadai-chicken.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "dum-chi-044",
+      "name": "Dum-ka-Chicken",
+      "category": "chicken-curries",
+      "description": "Slow cooked chicken curry",
+      "basePrice": 319,
+      "variants": [
+        { "type": "Half", "price": 319 },
+        { "type": "Full", "price": 579 }
+      ],
+      "image": "/images/dum-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "butter-chi-045",
+      "name": "Butter Chicken",
+      "category": "chicken-curries",
+      "description": "Creamy tomato based curry",
+      "basePrice": 329,
+      "variants": [
+        { "type": "Half", "price": 329 },
+        { "type": "Full", "price": 599 }
+      ],
+      "image": "/images/butter-chicken.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "hariyali-chi-curry-046",
+      "name": "Chicken Hariyali",
+      "category": "chicken-curries",
+      "description": "Green curry with herbs",
+      "basePrice": 309,
+      "variants": [
+        { "type": "Half", "price": 309 },
+        { "type": "Full", "price": 569 }
+      ],
+      "image": "/images/hariyali-curry.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "afghani-chi-curry-047",
+      "name": "Afghani Chicken",
+      "category": "chicken-curries",
+      "description": "Creamy Afghani style curry",
+      "basePrice": 329,
+      "variants": [
+        { "type": "Half", "price": 329 },
+        { "type": "Full", "price": 599 }
+      ],
+      "image": "/images/afghani-curry.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "rani-chi-048",
+      "name": "Rani Chicken",
+      "category": "chicken-curries",
+      "description": "Royal chicken curry",
+      "basePrice": 339,
+      "variants": [
+        { "type": "Half", "price": 339 },
+        { "type": "Full", "price": 619 }
+      ],
+      "image": "/images/rani-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "lemon-chi-049",
+      "name": "Lemon Chicken",
+      "category": "chicken-curries",
+      "description": "Tangy lemon flavored curry",
+      "basePrice": 309,
+      "variants": [
+        { "type": "Half", "price": 309 },
+        { "type": "Full", "price": 569 }
+      ],
+      "image": "/images/lemon-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "achari-chi-050",
+      "name": "Achari Chicken",
+      "category": "chicken-curries",
+      "description": "Pickle spiced chicken curry",
+      "basePrice": 319,
+      "variants": [
+        { "type": "Half", "price": 319 },
+        { "type": "Full", "price": 579 }
+      ],
+      "image": "/images/achari-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "kadai-mut-051",
+      "name": "Kadai Mutton",
+      "category": "mutton-curries",
+      "description": "Mutton in kadai masala",
+      "basePrice": 419,
+      "variants": [
+        { "type": "Half", "price": 419 },
+        { "type": "Full", "price": 779 }
+      ],
+      "image": "/images/kadai-mutton.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "kali-mirch-052",
+      "name": "Kali Mirchi Gosht",
+      "category": "mutton-curries",
+      "description": "Black pepper mutton curry",
+      "basePrice": 429,
+      "variants": [
+        { "type": "Half", "price": 429 },
+        { "type": "Full", "price": 799 }
+      ],
+      "image": "/images/kali-mirch.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "hari-mirch-053",
+      "name": "Hari Mirchi Gosht",
+      "category": "mutton-curries",
+      "description": "Green chilli mutton curry",
+      "basePrice": 429,
+      "variants": [
+        { "type": "Half", "price": 429 },
+        { "type": "Full", "price": 799 }
+      ],
+      "image": "/images/hari-mirch.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "hariyali-mut-054",
+      "name": "Mutton Hariyali",
+      "category": "mutton-curries",
+      "description": "Green herb mutton curry",
+      "basePrice": 439,
+      "variants": [
+        { "type": "Half", "price": 439 },
+        { "type": "Full", "price": 819 }
+      ],
+      "image": "/images/mutton-hariyali.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "dum-mut-055",
+      "name": "Dum ka Gosht",
+      "category": "mutton-curries",
+      "description": "Slow cooked mutton perfection",
+      "basePrice": 449,
+      "variants": [
+        { "type": "Half", "price": 449 },
+        { "type": "Full", "price": 839 }
+      ],
+      "image": "/images/dum-gosht.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-khorma-056",
+      "name": "Mutton Khorma",
+      "category": "mutton-curries",
+      "description": "Rich creamy mutton korma",
+      "basePrice": 459,
+      "variants": [
+        { "type": "Half", "price": 459 },
+        { "type": "Full", "price": 859 }
+      ],
+      "image": "/images/mutton-khorma.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "afghani-mut-057",
+      "name": "Afghani Mutton (Wet)",
+      "category": "mutton-curries",
+      "description": "Creamy Afghani mutton curry",
+      "basePrice": 469,
+      "variants": [
+        { "type": "Half", "price": 469 },
+        { "type": "Full", "price": 879 }
+      ],
+      "image": "/images/afghani-mutton-curry.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "paneer-matar-058",
+      "name": "Paneer Mattar Masala",
+      "category": "veg-curries",
+      "description": "Cottage cheese and peas curry",
+      "basePrice": 229,
+      "variants": [
+        { "type": "Half", "price": 229 },
+        { "type": "Full", "price": 419 }
+      ],
+      "image": "/images/paneer-matar.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "paneer-butter-059",
+      "name": "Paneer Butter Masala",
+      "category": "veg-curries",
+      "description": "Creamy tomato paneer curry",
+      "basePrice": 239,
+      "variants": [
+        { "type": "Half", "price": 239 },
+        { "type": "Full", "price": 439 }
+      ],
+      "image": "/images/paneer-butter.webp",
+      "dietary": "veg",
+      "popular": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "aloo-matar-060",
+      "name": "Aloo Mattar",
+      "category": "veg-curries",
+      "description": "Potato and peas curry",
+      "basePrice": 179,
+      "variants": [
+        { "type": "Half", "price": 179 },
+        { "type": "Full", "price": 329 }
+      ],
+      "image": "/images/aloo-matar.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "paneer-tikka-masala-061",
+      "name": "Paneer Tikka Masala",
+      "category": "veg-curries",
+      "description": "Grilled paneer in rich gravy",
+      "basePrice": 249,
+      "variants": [
+        { "type": "Half", "price": 249 },
+        { "type": "Full", "price": 459 }
+      ],
+      "image": "/images/paneer-tikka-masala.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "shahi-paneer-062",
+      "name": "Shahi Paneer Masala",
+      "category": "veg-curries",
+      "description": "Royal paneer in cashew gravy",
+      "basePrice": 259,
+      "variants": [
+        { "type": "Half", "price": 259 },
+        { "type": "Full", "price": 479 }
+      ],
+      "image": "/images/shahi-paneer.webp",
+      "dietary": "veg",
+      "featured": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "zeera-rice-063",
+      "name": "Zeera Rice",
+      "category": "rice-pulao",
+      "description": "Cumin flavored basmati rice",
+      "basePrice": 149,
+      "image": "/images/zeera-rice.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "kabuli-plain-064",
+      "name": "Kabuli Pulao (Plain)",
+      "category": "rice-pulao",
+      "description": "Afghan style rice with raisins",
+      "basePrice": 199,
+      "image": "/images/kabuli-plain.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "kabuli-chi-065",
+      "name": "Kabuli Pulao (Chicken)",
+      "category": "rice-pulao",
+      "description": "Kabuli rice topped with chicken",
+      "basePrice": 299,
+      "image": "/images/kabuli-chicken.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "kabuli-mut-066",
+      "name": "Kabuli Pulao (Mutton)",
+      "category": "rice-pulao",
+      "description": "Kabuli rice topped with mutton",
+      "basePrice": 399,
+      "image": "/images/kabuli-mutton.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "chi-pulao-067",
+      "name": "Chicken Pulao",
+      "category": "rice-pulao",
+      "description": "Fragrant chicken pulao",
+      "basePrice": 249,
+      "image": "/images/chicken-pulao.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "pilaf-rice-068",
+      "name": "Pilaf Rice",
+      "category": "rice-pulao",
+      "description": "Middle Eastern style pilaf",
+      "basePrice": 169,
+      "image": "/images/pilaf-rice.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "mut-kheema-pulao-069",
+      "name": "Mutton Kheema Pulao",
+      "category": "rice-pulao",
+      "description": "Minced mutton pulao",
+      "basePrice": 329,
+      "image": "/images/kheema-pulao.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-fried-rice-070",
+      "name": "Chicken Fried Rice",
+      "category": "rice-pulao",
+      "description": "Indo-Chinese chicken fried rice",
+      "basePrice": 229,
+      "image": "/images/chicken-fried-rice.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "veg-fried-rice-071",
+      "name": "Veg Fried Rice",
+      "category": "rice-pulao",
+      "description": "Vegetable fried rice",
+      "basePrice": 179,
+      "image": "/images/veg-fried-rice.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "egg-fried-rice-072",
+      "name": "Egg Fried Rice",
+      "category": "rice-pulao",
+      "description": "Egg fried rice",
+      "basePrice": 199,
+      "image": "/images/egg-fried-rice.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "white-rice-073",
+      "name": "White Steamed Rice",
+      "category": "rice-pulao",
+      "description": "Plain steamed basmati",
+      "basePrice": 129,
+      "image": "/images/white-rice.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "mut-biryani-full-074",
+      "name": "Mutton Biryani",
+      "category": "biryani",
+      "description": "Authentic Hyderabadi mutton dum biryani",
+      "basePrice": 599,
+      "variants": [
+        { "type": "Full", "price": 599 },
+        { "type": "Family", "price": 1199 }
+      ],
+      "image": "/images/mutton-biryani.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "tags": ["signature", "hyderabadi"],
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-biryani-075",
+      "name": "Chicken Biryani",
+      "category": "biryani",
+      "description": "Authentic Hyderabadi chicken dum biryani",
+      "basePrice": 199,
+      "variants": [
+        { "type": "Single", "price": 199 },
+        { "type": "Full", "price": 399 },
+        { "type": "Family", "price": 799 }
+      ],
+      "image": "/images/chicken-biryani.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "tags": ["signature", "hyderabadi"],
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-faham-076",
+      "name": "Chicken Faham",
+      "category": "mandi",
+      "description": "Charcoal grilled Arabian chicken",
+      "basePrice": 349,
+      "image": "/images/chicken-faham.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-faham-mandi-077",
+      "name": "Chicken Faham Mandi",
+      "category": "mandi",
+      "description": "Grilled chicken with flavored rice",
+      "basePrice": 499,
+      "image": "/images/faham-mandi.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "chi-mandi-078",
+      "name": "Chicken Mandi",
+      "category": "mandi",
+      "description": "Slow roasted Arabian chicken with rice",
+      "basePrice": 449,
+      "image": "/images/chicken-mandi.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-juicy-mandi-079",
+      "name": "Juicy Mutton Mandi",
+      "category": "mandi",
+      "description": "Tender mutton mandi",
+      "basePrice": 699,
+      "image": "/images/mutton-mandi.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "mut-fry-mandi-080",
+      "name": "Mutton Fry Mandi",
+      "category": "mandi",
+      "description": "Crispy fried mutton with rice",
+      "basePrice": 729,
+      "image": "/images/mutton-fry-mandi.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "fish-mandi-081",
+      "name": "Fish Mandi",
+      "category": "mandi",
+      "description": "Grilled fish with aromatic rice",
+      "basePrice": 549,
+      "image": "/images/fish-mandi.webp",
+      "dietary": "seafood",
+      "spicyLevel": 2
+    },
+    {
+      "id": "mix-mandi-082",
+      "name": "Mix Mandi (Chicken, Mutton, Fish)",
+      "category": "mandi",
+      "description": "Triple treat mandi platter",
+      "basePrice": 999,
+      "image": "/images/mix-mandi.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "tags": ["premium", "signature"],
+      "spicyLevel": 2
+    },
+    {
+      "id": "crispy-burger-083",
+      "name": "Crispy Chicken Burger",
+      "category": "burgers",
+      "description": "Crunchy fried chicken patty burger",
+      "basePrice": 149,
+      "image": "/images/crispy-burger.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "grilled-burger-084",
+      "name": "Chicken Grilled Burger",
+      "category": "burgers",
+      "description": "Grilled chicken patty burger",
+      "basePrice": 169,
+      "image": "/images/grilled-burger.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "cheese-grilled-burger-085",
+      "name": "Chicken Cheese Grilled Burger",
+      "category": "burgers",
+      "description": "Grilled chicken with cheese",
+      "basePrice": 189,
+      "image": "/images/cheese-burger.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "double-burger-086",
+      "name": "Double Patty Chicken Cheese Grilled Burger",
+      "category": "burgers",
+      "description": "Two grilled patties with cheese",
+      "basePrice": 249,
+      "image": "/images/double-burger.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "grilled-sand-087",
+      "name": "Grilled Chicken Sandwich",
+      "category": "sandwiches",
+      "description": "Classic grilled chicken sandwich",
+      "basePrice": 149,
+      "image": "/images/grilled-sandwich.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "cheese-sand-088",
+      "name": "Chicken Cheese Grilled Sandwich",
+      "category": "sandwiches",
+      "description": "Chicken and cheese grilled sandwich",
+      "basePrice": 169,
+      "image": "/images/cheese-sandwich.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "veg-sand-089",
+      "name": "Veg Grilled Sandwich",
+      "category": "sandwiches",
+      "description": "Fresh vegetable grilled sandwich",
+      "basePrice": 119,
+      "image": "/images/veg-sandwich.webp",
+      "dietary": "veg",
+      "spicyLevel": 1
+    },
+    {
+      "id": "paneer-sand-090",
+      "name": "Paneer Grilled Sandwich",
+      "category": "sandwiches",
+      "description": "Spiced paneer grilled sandwich",
+      "basePrice": 139,
+      "image": "/images/paneer-sandwich.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "crispy-wrap-091",
+      "name": "Crispy Chicken Wrap",
+      "category": "wraps",
+      "description": "Crunchy chicken in soft wrap",
+      "basePrice": 159,
+      "image": "/images/crispy-wrap.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "tandoori-wrap-092",
+      "name": "Chicken Tandoori Wrap",
+      "category": "wraps",
+      "description": "Tandoori chicken wrap",
+      "basePrice": 169,
+      "image": "/images/tandoori-wrap.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "special-wrap-093",
+      "name": "Chicken Special Wrap",
+      "category": "wraps",
+      "description": "Chef's special chicken wrap",
+      "basePrice": 179,
+      "image": "/images/special-wrap.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "nuggets-wrap-094",
+      "name": "Chicken Nuggets Wrap",
+      "category": "wraps",
+      "description": "Crispy nuggets in wrap",
+      "basePrice": 169,
+      "image": "/images/nuggets-wrap.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "bbq-wrap-095",
+      "name": "Barbeque Chicken Wrap",
+      "category": "wraps",
+      "description": "BBQ chicken wrap",
+      "basePrice": 179,
+      "image": "/images/bbq-wrap.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "chipotle-wrap-096",
+      "name": "Chipotle Chicken Wrap",
+      "category": "wraps",
+      "description": "Spicy chipotle chicken wrap",
+      "basePrice": 189,
+      "image": "/images/chipotle-wrap.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "paneer-crispy-wrap-097",
+      "name": "Crispy Paneer Wrap",
+      "category": "wraps",
+      "description": "Crispy paneer in soft wrap",
+      "basePrice": 149,
+      "image": "/images/paneer-wrap.webp",
+      "dietary": "veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "salted-fries-098",
+      "name": "Salted French Fries",
+      "category": "fries-nuggets",
+      "description": "Classic salted fries",
+      "basePrice": 99,
+      "image": "/images/salted-fries.webp",
+      "dietary": "veg",
+      "popular": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "peri-fries-099",
+      "name": "Peri Peri French Fries",
+      "category": "fries-nuggets",
+      "description": "Spicy peri peri fries",
+      "basePrice": 119,
+      "image": "/images/peri-fries.webp",
+      "dietary": "veg",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "loaded-fries-100",
+      "name": "Chicken Loaded Fries",
+      "category": "fries-nuggets",
+      "description": "Fries topped with chicken",
+      "basePrice": 189,
+      "image": "/images/loaded-fries.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "nuggets-101",
+      "name": "Chicken Nuggets",
+      "category": "fries-nuggets",
+      "description": "Crispy chicken nuggets",
+      "basePrice": 149,
+      "image": "/images/nuggets.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "peri-nuggets-102",
+      "name": "Peri Peri Chicken Nuggets",
+      "category": "fries-nuggets",
+      "description": "Spicy peri peri nuggets",
+      "basePrice": 169,
+      "image": "/images/peri-nuggets.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 3
+    },
+    {
+      "id": "broast-2pc-103",
+      "name": "2 pcs Chicken Broast + dips",
+      "category": "broast",
+      "description": "Two pieces broasted chicken with dips",
+      "basePrice": 179,
+      "variants": [
+        { "type": "2pcs", "price": 179 }
+      ],
+      "image": "/images/broast-2pc.webp",
+      "dietary": "non-veg",
+      "spicyLevel": 2
+    },
+    {
+      "id": "broast-4pc-104",
+      "name": "4 pcs Chicken Broast + fries + dips",
+      "category": "broast",
+      "description": "Four pieces with fries and dips",
+      "basePrice": 329,
+      "variants": [
+        { "type": "4pcs", "price": 329 }
+      ],
+      "image": "/images/broast-4pc.webp",
+      "dietary": "non-veg",
+      "popular": true,
+      "spicyLevel": 2
+    },
+    {
+      "id": "broast-8pc-105",
+      "name": "8 pcs Chicken Broast + fries + dips + buns",
+      "category": "broast",
+      "description": "Eight pieces family pack",
+      "basePrice": 599,
+      "variants": [
+        { "type": "8pcs", "price": 599 }
+      ],
+      "image": "/images/broast-8pc.webp",
+      "dietary": "non-veg",
+      "featured": true,
+      "tags": ["family pack"],
+      "spicyLevel": 2
+    },
+    {
+      "id": "qubani-106",
+      "name": "Qubani ka Meetha",
+      "category": "desserts",
+      "description": "Apricot dessert with ice cream",
+      "basePrice": 129,
+      "image": "/images/qubani.webp",
+      "dietary": "dessert",
+      "featured": true,
+      "tags": ["hyderabadi"],
+      "spicyLevel": 1
+    },
+    {
+      "id": "shahi-tukda-107",
+      "name": "Shahi Tukda",
+      "category": "desserts",
+      "description": "Royal bread pudding",
+      "basePrice": 119,
+      "image": "/images/shahi-tukda.webp",
+      "dietary": "dessert",
+      "popular": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "fruit-salad-108",
+      "name": "Fruit Salad",
+      "category": "desserts",
+      "description": "Fresh seasonal fruits",
+      "basePrice": 99,
+      "image": "/images/fruit-salad.webp",
+      "dietary": "dessert",
+      "spicyLevel": 1
+    },
+    {
+      "id": "kaddu-kheer-109",
+      "name": "Kaddu ki Kheer",
+      "category": "desserts",
+      "description": "Pumpkin milk dessert",
+      "basePrice": 109,
+      "image": "/images/kaddu-kheer.webp",
+      "dietary": "dessert",
+      "spicyLevel": 1
+    },
+    {
+      "id": "gulab-jamun-110",
+      "name": "Gulab Jamun",
+      "category": "desserts",
+      "description": "Classic milk dumplings in syrup",
+      "basePrice": 89,
+      "image": "/images/gulab-jamun.webp",
+      "dietary": "dessert",
+      "popular": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "dil-firdaus-111",
+      "name": "Dil-e-Firdaus",
+      "category": "desserts",
+      "description": "Heart of paradise dessert",
+      "basePrice": 139,
+      "image": "/images/dil-firdaus.webp",
+      "dietary": "dessert",
+      "featured": true,
+      "spicyLevel": 1
+    }
+  ]
+}

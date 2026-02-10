@@ -1,36 +1,154 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tabs Kitchen - Immersive 3D Cloud Kitchen Website
 
-## Getting Started
+A premium, cinematic website for Tabs Kitchen, Hyderabad's finest cloud kitchen. Built with Next.js 14, featuring a royal design aesthetic with 3D food visuals and seamless ordering experience.
 
-First, run the development server:
+## 🌟 Features
 
+- **Premium Design**: Dark theme with royal gold accents, glassmorphism, and smooth animations
+- **Complete Menu**: 100+ dishes across 19 categories (Biryani, Mandi, Kebabs, Curries, and more)
+- **Smart Filtering**: Search and filter by category, dietary preferences (Veg/Non-Veg/Seafood)
+- **Responsive**: Mobile-first design that works beautifully on all devices
+- **Party Orders**: Custom quote system for bulk and catering orders
+- **WhatsApp Integration**: Direct ordering via WhatsApp (V1 approach)
+- **Payment Ready**: Infrastructure ready for Razorpay integration
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+
+### Installation
+
+1. Clone or navigate to the project:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd C:\Users\ahad\.gemini\antigravity\scratch\tabs-kitchen
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```bash
+cp .env.local.example .env.local
+# Edit .env.local with your actual values
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+tabs-kitchen/
+├── app/                    # Next.js 14 App Router
+│   ├── page.tsx           # Homepage
+│   ├── menu/              # Full menu page
+│   ├── party-orders/      # Party order form
+│   ├── about/             # About page
+│   ├── contact/           # Contact page
+│   └── globals.css        # Global styles
+├── components/
+│   ├── ui/                # Reusable UI components
+│   └── menu/              # Menu-specific components
+├── data/
+│   └── menuData.json      # Complete menu database
+├── types/                 # TypeScript definitions
+├── lib/                   # Utilities
+└── public/                # Static assets
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design System
 
-## Deploy on Vercel
+### Colors
+- **Charcoal Black**: `#1a1a1a` - Primary background
+- **Royal Gold**: `#d4af37` - Accent and highlights
+- **Warm Orange**: `#ff6b35` - CTAs and energy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Typography
+- **Headings**: Playfair Display (serif, elegant)
+- **Body**: Inter (sans-serif, clean)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Effects
+- Glassmorphism with backdrop blur
+- Gold glow effects on hover
+- Smooth scroll animations
+- 3D card lift effects
+
+## 🍽️ Menu Data
+
+The complete menu is stored in `/data/menuData.json` with:
+- 111 menu items across 19 categories
+- Variant pricing (Half/Full/Family)
+- Dietary tags (Veg/Non-Veg/Seafood)
+- Popular and featured flags
+- Spicy level indicators
+
+To update menu:
+1. Edit `data/menuData.json`
+2. Update prices, add/remove items
+3. Changes reflect immediately (no rebuild needed)
+
+## 📱 WhatsApp Ordering (V1)
+
+Current implementation uses WhatsApp for orders:
+- Update `NEXT_PUBLIC_WHATSAPP_NUMBER` in `.env.local`
+- Party order form pre-fills WhatsApp message
+- Direct "Order Now" buttons link to WhatsApp
+
+## 💳 Payment Integration (V2 Ready)
+
+The codebase is structured for Razorpay integration:
+1. Add Razorpay credentials to `.env.local`
+2. Implement checkout flow in `/components/checkout/`
+3. Backend order storage required
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel
+```
+
+### Build for Production
+```bash
+npm run build
+npm start
+```
+
+## 📝 Next Steps (V2 Enhancements)
+
+1. **AI Food Images**: Generate realistic food photos for each dish
+2. **GSAP Animations**: Add scroll-triggered animations on homepage
+3. **Cart State Management**: Full shopping cart with localStorage
+4. **Razorpay Integration**: Live payment processing
+5. **Order Backend**: Database for order management
+6. **3D Models**: Spline or Three.js for hero dishes
+7. **Admin Panel**: CMS for menu updates
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Icons**: Lucide React
+- **Animations**: Framer Motion, GSAP (ready)
+- **Payment**: Razorpay (infrastructure ready)
+
+## 📧 Contact
+
+**Tabs Kitchen**
+- Location: Hyderabad, Telangana
+- Phone: +91 XXXXX XXXXX
+- Email: info@tabskitchen.com
+- Hours: 10:00 AM - 11:00 PM (Daily)
+
+---
+
+**The Art of Fine Culinary** 🍽️✨
