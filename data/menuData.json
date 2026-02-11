@@ -144,7 +144,7 @@
           "price": 230
         }
       ],
-      "image": "/images/chicken-tikka.webp",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -165,7 +165,7 @@
           "price": 260
         }
       ],
-      "image": "/images/afghani-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -185,7 +185,7 @@
           "price": 260
         }
       ],
-      "image": "/images/malai-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -206,7 +206,7 @@
           "price": 230
         }
       ],
-      "image": "/images/hariyali-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -217,7 +217,7 @@
       "category": "chicken-starters",
       "description": "Mediterranean style grilled chicken",
       "basePrice": 270,
-      "image": "/images/turkish-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -227,7 +227,7 @@
       "category": "chicken-starters",
       "description": "Middle Eastern spice blend",
       "basePrice": 260,
-      "image": "/images/arabian-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -237,7 +237,7 @@
       "category": "chicken-starters",
       "description": "Lebanese garlic chicken skewers",
       "basePrice": 280,
-      "image": "/images/sheesh-tawouk.webp",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -247,7 +247,7 @@
       "category": "chicken-starters",
       "description": "Afghan style marinated chicken chops",
       "basePrice": 260,
-      "image": "/images/chicken-chopan.webp",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -267,7 +267,7 @@
           "price": 390
         }
       ],
-      "image": "/images/chicken-bbq.webp",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -278,7 +278,7 @@
       "category": "chicken-starters",
       "description": "Juicy drumsticks in tandoori masala",
       "basePrice": 220,
-      "image": "/images/chicken-tangdi.webp",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -288,7 +288,7 @@
       "category": "chicken-starters",
       "description": "Crispy barbecue chicken wings",
       "basePrice": 220,
-      "image": "/images/bbq-wings.webp",
+      "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -299,7 +299,7 @@
       "category": "mutton-starters",
       "description": "Tender mutton cubes in rich spices",
       "basePrice": 330,
-      "image": "/images/mutton-boti.webp",
+      "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -310,7 +310,7 @@
       "category": "mutton-starters",
       "description": "Minced mutton skewers with herbs",
       "basePrice": 370,
-      "image": "/images/mutton-sheekh.webp",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -320,7 +320,7 @@
       "category": "mutton-starters",
       "description": "Creamy Afghani style mutton",
       "basePrice": 340,
-      "image": "/images/afghani-mutton.webp",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -330,7 +330,7 @@
       "category": "mutton-starters",
       "description": "Premium mutton chops tandoori style",
       "basePrice": 400,
-      "image": "/images/mutton-chops.webp",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -347,7 +347,7 @@
           "price": 300
         }
       ],
-      "image": "/images/shami-kebab.webp",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -363,7 +363,7 @@
           "price": 300
         }
       ],
-      "image": "/images/shikampur.webp",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -373,7 +373,7 @@
       "category": "mutton-starters",
       "description": "Slow roasted mutton with spices",
       "basePrice": 335,
-      "image": "/images/mutton-roast.webp",
+      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -383,7 +383,7 @@
       "category": "mutton-starters",
       "description": "Whole lamb leg slow cooked in dum style",
       "basePrice": 2200,
-      "image": "/images/dum-raan.webp",
+      "image": "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "tags": [
@@ -398,7 +398,7 @@
       "category": "mutton-starters",
       "description": "Traditional Hyderabadi mutton delicacy",
       "basePrice": 480,
-      "image": "/images/kareli.webp",
+      "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -408,7 +408,7 @@
       "category": "mutton-starters",
       "description": "Deep fried mutton with bones",
       "basePrice": 340,
-      "image": "/images/talawa-gosht.webp",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -418,7 +418,7 @@
       "category": "mutton-starters",
       "description": "Deep fried boneless mutton pieces",
       "basePrice": 380,
-      "image": "/images/talawa-boneless.webp",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 3
@@ -429,7 +429,7 @@
       "category": "fish-seafood",
       "description": "Grilled fish in tandoori masala",
       "basePrice": 320,
-      "image": "/images/fish-tikka.webp",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
       "dietary": "seafood",
       "spicyLevel": 2
     },
@@ -439,7 +439,7 @@
       "category": "fish-seafood",
       "description": "Succulent grilled prawns",
       "basePrice": 340,
-      "image": "/images/prawns-bbq.webp",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5c6f7cee2d?w=800&q=80",
       "dietary": "seafood",
       "featured": true,
       "spicyLevel": 2
@@ -450,7 +450,7 @@
       "category": "fish-seafood",
       "description": "Indo-Chinese style spicy prawns",
       "basePrice": 330,
-      "image": "/images/chilli-prawns.webp",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&q=80",
       "dietary": "seafood",
       "spicyLevel": 3
     },
@@ -460,7 +460,7 @@
       "category": "fish-seafood",
       "description": "Hyderabadi style fried fish",
       "basePrice": 280,
-      "image": "/images/apollo-fish.webp",
+      "image": "https://images.unsplash.com/photo-1580959705009-e79699d68a2e?w=800&q=80",
       "dietary": "seafood",
       "popular": true,
       "spicyLevel": 3
@@ -471,7 +471,7 @@
       "category": "fish-seafood",
       "description": "Spicy fried prawns",
       "basePrice": 330,
-      "image": "/images/loose-prawns.webp",
+      "image": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?w=800&q=80",
       "dietary": "seafood",
       "spicyLevel": 3
     },
@@ -481,7 +481,7 @@
       "category": "veg-starters",
       "description": "Classic cottage cheese tikka",
       "basePrice": 200,
-      "image": "/images/paneer-tikka.webp",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
       "dietary": "veg",
       "popular": true,
       "spicyLevel": 2
@@ -492,7 +492,7 @@
       "category": "veg-starters",
       "description": "Green marinade paneer tikka",
       "basePrice": 225,
-      "image": "/images/hariyali-paneer.webp",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 2
     },
@@ -502,7 +502,7 @@
       "category": "veg-starters",
       "description": "Creamy Afghani style paneer",
       "basePrice": 235,
-      "image": "/images/afghani-paneer.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -512,7 +512,7 @@
       "category": "veg-starters",
       "description": "Cheese stuffed paneer tikka",
       "basePrice": 250,
-      "image": "/images/paneer-cheese-tikka.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "veg",
       "featured": true,
       "spicyLevel": 1
@@ -523,7 +523,7 @@
       "category": "veg-starters",
       "description": "Soya chaap in tandoori masala",
       "basePrice": 195,
-      "image": "/images/soya-chaap.webp",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 2
     },
@@ -533,7 +533,7 @@
       "category": "veg-starters",
       "description": "Creamy Afghani soya chaap",
       "basePrice": 200,
-      "image": "/images/afghani-soya.webp",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -553,7 +553,7 @@
           "price": 280
         }
       ],
-      "image": "/images/chicken65.webp",
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 3
@@ -574,7 +574,7 @@
           "price": 295
         }
       ],
-      "image": "/images/chilli-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 3
@@ -595,7 +595,7 @@
           "price": 295
         }
       ],
-      "image": "/images/garlic-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -615,7 +615,7 @@
           "price": 280
         }
       ],
-      "image": "/images/chicken-manchuria.webp",
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -625,7 +625,7 @@
       "category": "chinese-non-veg",
       "description": "Crispy golden fried chicken",
       "basePrice": 250,
-      "image": "/images/fried-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -635,7 +635,7 @@
       "category": "chinese-veg",
       "description": "Spicy paneer cubes",
       "basePrice": 200,
-      "image": "/images/chilli-paneer.webp",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80",
       "dietary": "veg",
       "popular": true,
       "spicyLevel": 3
@@ -646,7 +646,7 @@
       "category": "chinese-veg",
       "description": "Crispy paneer 65",
       "basePrice": 220,
-      "image": "/images/paneer65.webp",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 3
     },
@@ -656,7 +656,7 @@
       "category": "chinese-veg",
       "description": "Broccoli in cheesy sauce",
       "basePrice": 170,
-      "image": "/images/cheesy-broccoli.webp",
+      "image": "https://images.unsplash.com/photo-1628773822990-202d3b52f4c7?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -666,7 +666,7 @@
       "category": "chicken-curries",
       "description": "Chicken in kadai masala",
       "basePrice": 285,
-      "image": "/images/kadai-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -677,7 +677,7 @@
       "category": "chicken-curries",
       "description": "Slow cooked chicken curry",
       "basePrice": 280,
-      "image": "/images/dum-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -687,7 +687,7 @@
       "category": "chicken-curries",
       "description": "Creamy tomato based curry",
       "basePrice": 235,
-      "image": "/images/butter-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 1
@@ -698,7 +698,7 @@
       "category": "chicken-curries",
       "description": "Green curry with herbs",
       "basePrice": 270,
-      "image": "/images/hariyali-curry.webp",
+      "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -708,7 +708,7 @@
       "category": "chicken-curries",
       "description": "Creamy Afghani style curry",
       "basePrice": 250,
-      "image": "/images/afghani-curry.webp",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -718,7 +718,7 @@
       "category": "chicken-curries",
       "description": "Royal chicken curry",
       "basePrice": 240,
-      "image": "/images/rani-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -728,7 +728,7 @@
       "category": "chicken-curries",
       "description": "Tangy lemon flavored curry",
       "basePrice": 220,
-      "image": "/images/lemon-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -738,7 +738,7 @@
       "category": "chicken-curries",
       "description": "Pickle spiced chicken curry",
       "basePrice": 250,
-      "image": "/images/achari-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -748,7 +748,7 @@
       "category": "mutton-curries",
       "description": "Mutton in kadai masala",
       "basePrice": 329,
-      "image": "/images/kadai-mutton.webp",
+      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -759,7 +759,7 @@
       "category": "mutton-curries",
       "description": "Black pepper mutton curry",
       "basePrice": 315,
-      "image": "/images/kali-mirch-gosht.webp",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -769,7 +769,7 @@
       "category": "mutton-curries",
       "description": "Green chilli mutton curry",
       "basePrice": 305,
-      "image": "/images/hari-mirch-gosht.webp",
+      "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -779,7 +779,7 @@
       "category": "mutton-curries",
       "description": "Green herb mutton curry",
       "basePrice": 310,
-      "image": "/images/mutton-hariyali.webp",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -789,7 +789,7 @@
       "category": "mutton-curries",
       "description": "Slow cooked mutton curry",
       "basePrice": 374,
-      "image": "/images/dum-gosht.webp",
+      "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -800,7 +800,7 @@
       "category": "mutton-curries",
       "description": "Rich and creamy mutton curry",
       "basePrice": 380,
-      "image": "/images/mutton-khorma.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -810,7 +810,7 @@
       "category": "mutton-curries",
       "description": "Creamy Afghani mutton curry",
       "basePrice": 380,
-      "image": "/images/afghani-mutton-curry.webp",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -820,7 +820,7 @@
       "category": "mutton-curries",
       "description": "Tangy Hyderabadi lentils",
       "basePrice": 150,
-      "image": "/images/khatti-dal.webp",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 2
     },
@@ -830,7 +830,7 @@
       "category": "veg-curries",
       "description": "Cottage cheese and peas curry",
       "basePrice": 210,
-      "image": "/images/paneer-mattar.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -840,7 +840,7 @@
       "category": "veg-curries",
       "description": "Creamy tomato paneer curry",
       "basePrice": 225,
-      "image": "/images/paneer-butter.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "veg",
       "popular": true,
       "spicyLevel": 1
@@ -851,7 +851,7 @@
       "category": "veg-curries",
       "description": "Potato and peas curry",
       "basePrice": 195,
-      "image": "/images/aloo-mattar.webp",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -861,7 +861,7 @@
       "category": "veg-curries",
       "description": "Grilled paneer in rich gravy",
       "basePrice": 230,
-      "image": "/images/paneer-tikka-masala.webp",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 2
     },
@@ -871,7 +871,7 @@
       "category": "veg-curries",
       "description": "Royal creamy paneer curry",
       "basePrice": 220,
-      "image": "/images/shahi-paneer.webp",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
       "dietary": "veg",
       "featured": true,
       "spicyLevel": 1
@@ -882,7 +882,7 @@
       "category": "rice-pulao",
       "description": "Cumin flavored basmati rice",
       "basePrice": 170,
-      "image": "/images/zeera-rice.webp",
+      "image": "https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -892,7 +892,7 @@
       "category": "rice-pulao",
       "description": "Afghan style rice with carrots and raisins",
       "basePrice": 220,
-      "image": "/images/kabuli-plain.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -902,7 +902,7 @@
       "category": "rice-pulao",
       "description": "Kabuli pulao with tender chicken",
       "basePrice": 250,
-      "image": "/images/kabuli-chicken.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -912,7 +912,7 @@
       "category": "rice-pulao",
       "description": "Kabuli pulao with succulent mutton",
       "basePrice": 285,
-      "image": "/images/kabuli-mutton.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -922,7 +922,7 @@
       "category": "rice-pulao",
       "description": "Fragrant chicken rice",
       "basePrice": 245,
-      "image": "/images/chicken-pulao.webp",
+      "image": "https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -933,7 +933,7 @@
       "category": "rice-pulao",
       "description": "Middle Eastern style rice",
       "basePrice": 235,
-      "image": "/images/pilaf-rice.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -943,7 +943,7 @@
       "category": "rice-pulao",
       "description": "Minced mutton rice",
       "basePrice": 370,
-      "image": "/images/kheema-pulao.webp",
+      "image": "https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -954,7 +954,7 @@
       "category": "rice-pulao",
       "description": "Chinese style chicken rice",
       "basePrice": 220,
-      "image": "/images/chicken-fried-rice.webp",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -964,7 +964,7 @@
       "category": "rice-pulao",
       "description": "Chinese style vegetable rice",
       "basePrice": 200,
-      "image": "/images/veg-fried-rice.webp",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -974,7 +974,7 @@
       "category": "rice-pulao",
       "description": "Chinese style egg rice",
       "basePrice": 210,
-      "image": "/images/egg-fried-rice.webp",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -984,7 +984,7 @@
       "category": "rice-pulao",
       "description": "Plain steamed basmati rice",
       "basePrice": 150,
-      "image": "/images/white-rice.webp",
+      "image": "https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -1004,7 +1004,7 @@
           "price": 549
         }
       ],
-      "image": "/images/mutton-biryani.webp",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "popular": true,
@@ -1030,7 +1030,7 @@
           "price": 520
         }
       ],
-      "image": "/images/chicken-biryani.webp",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "popular": true,
@@ -1042,7 +1042,7 @@
       "category": "mandi",
       "description": "Tender roasted chicken (Only Chicken)",
       "basePrice": 290,
-      "image": "/images/chicken-faham.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1052,7 +1052,7 @@
       "category": "mandi",
       "description": "Chicken Faham with fragrant rice",
       "basePrice": 390,
-      "image": "/images/chicken-faham-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 1
@@ -1063,7 +1063,7 @@
       "category": "mandi",
       "description": "Traditional Arabian chicken mandi",
       "basePrice": 385,
-      "image": "/images/chicken-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -1074,7 +1074,7 @@
       "category": "mandi",
       "description": "Slow cooked tender mutton mandi",
       "basePrice": 445,
-      "image": "/images/mutton-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 1
@@ -1085,7 +1085,7 @@
       "category": "mandi",
       "description": "Crispy fried mutton mandi",
       "basePrice": 429,
-      "image": "/images/mutton-fry-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -1095,7 +1095,7 @@
       "category": "mandi",
       "description": "Arabian fish mandi",
       "basePrice": 380,
-      "image": "/images/fish-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
       "dietary": "seafood",
       "spicyLevel": 1
     },
@@ -1105,7 +1105,7 @@
       "category": "mandi",
       "description": "Chicken, Mutton, and Fish combination",
       "basePrice": 950,
-      "image": "/images/mix-mandi.webp",
+      "image": "https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "tags": [
@@ -1119,7 +1119,7 @@
       "category": "burgers",
       "description": "Crispy fried chicken burger",
       "basePrice": 140,
-      "image": "/images/crispy-burger.webp",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1129,7 +1129,7 @@
       "category": "burgers",
       "description": "Grilled chicken patty burger",
       "basePrice": 150,
-      "image": "/images/grilled-burger.webp",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -1140,7 +1140,7 @@
       "category": "burgers",
       "description": "Grilled chicken with cheese",
       "basePrice": 170,
-      "image": "/images/cheese-grilled-burger.webp",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1150,7 +1150,7 @@
       "category": "burgers",
       "description": "Double patty with cheese",
       "basePrice": 230,
-      "image": "/images/double-burger.webp",
+      "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 1
@@ -1161,7 +1161,7 @@
       "category": "sandwiches",
       "description": "Classic grilled chicken sandwich",
       "basePrice": 120,
-      "image": "/images/grilled-sandwich.webp",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1171,7 +1171,7 @@
       "category": "sandwiches",
       "description": "Grilled chicken sandwich with cheese",
       "basePrice": 130,
-      "image": "/images/cheese-sandwich.webp",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -1182,7 +1182,7 @@
       "category": "sandwiches",
       "description": "Grilled vegetable sandwich",
       "basePrice": 90,
-      "image": "/images/veg-sandwich.webp",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -1192,7 +1192,7 @@
       "category": "sandwiches",
       "description": "Grilled paneer sandwich",
       "basePrice": 110,
-      "image": "/images/paneer-sandwich.webp",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -1202,7 +1202,7 @@
       "category": "wraps",
       "description": "Crispy fried chicken wrap",
       "basePrice": 140,
-      "image": "/images/crispy-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1212,7 +1212,7 @@
       "category": "wraps",
       "description": "Tandoori chicken wrap",
       "basePrice": 145,
-      "image": "/images/tandoori-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 2
@@ -1223,7 +1223,7 @@
       "category": "wraps",
       "description": "Chef's special chicken wrap",
       "basePrice": 170,
-      "image": "/images/special-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -1234,7 +1234,7 @@
       "category": "wraps",
       "description": "Crispy nuggets in wrap",
       "basePrice": 150,
-      "image": "/images/nuggets-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1244,7 +1244,7 @@
       "category": "wraps",
       "description": "BBQ chicken wrap",
       "basePrice": 160,
-      "image": "/images/bbq-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -1254,7 +1254,7 @@
       "category": "wraps",
       "description": "Spicy chipotle chicken wrap",
       "basePrice": 165,
-      "image": "/images/chipotle-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 3
     },
@@ -1264,7 +1264,7 @@
       "category": "wraps",
       "description": "Crispy paneer wrap",
       "basePrice": 120,
-      "image": "/images/paneer-wrap.webp",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 1
     },
@@ -1274,7 +1274,7 @@
       "category": "fries-nuggets",
       "description": "Classic salted fries",
       "basePrice": 100,
-      "image": "/images/salted-fries.webp",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&q=80",
       "dietary": "veg",
       "spicyLevel": 0
     },
@@ -1284,7 +1284,7 @@
       "category": "fries-nuggets",
       "description": "Spicy peri peri fries",
       "basePrice": 120,
-      "image": "/images/peri-fries.webp",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&q=80",
       "dietary": "veg",
       "popular": true,
       "spicyLevel": 2
@@ -1295,7 +1295,7 @@
       "category": "fries-nuggets",
       "description": "Fries topped with chicken",
       "basePrice": 180,
-      "image": "/images/loaded-fries.webp",
+      "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 2
@@ -1306,7 +1306,7 @@
       "category": "fries-nuggets",
       "description": "Crispy chicken nuggets",
       "basePrice": 120,
-      "image": "/images/nuggets.webp",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -1317,7 +1317,7 @@
       "category": "fries-nuggets",
       "description": "Spicy peri peri nuggets",
       "basePrice": 140,
-      "image": "/images/peri-nuggets.webp",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 2
     },
@@ -1327,7 +1327,7 @@
       "category": "broast",
       "description": "2 pieces crispy fried chicken with dips",
       "basePrice": 199,
-      "image": "/images/broast-2pc.webp",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
       "dietary": "non-veg",
       "spicyLevel": 1
     },
@@ -1337,7 +1337,7 @@
       "category": "broast",
       "description": "4 pieces broast with fries and dips",
       "basePrice": 349,
-      "image": "/images/broast-4pc.webp",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
       "dietary": "non-veg",
       "popular": true,
       "spicyLevel": 1
@@ -1348,7 +1348,7 @@
       "category": "broast",
       "description": "8 pieces chicken with fries, dips, and buns",
       "basePrice": 649,
-      "image": "/images/broast-8pc.webp",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
       "dietary": "non-veg",
       "featured": true,
       "spicyLevel": 1
@@ -1359,7 +1359,7 @@
       "category": "desserts",
       "description": "Traditional Hyderabadi apricot dessert",
       "basePrice": 120,
-      "image": "/images/qubani.webp",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80",
       "dietary": "dessert",
       "featured": true,
       "spicyLevel": 0
@@ -1370,7 +1370,7 @@
       "category": "desserts",
       "description": "Royal bread pudding",
       "basePrice": 130,
-      "image": "/images/shahi-tukda.webp",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80",
       "dietary": "dessert",
       "popular": true,
       "spicyLevel": 0
@@ -1381,7 +1381,7 @@
       "category": "desserts",
       "description": "Fresh seasonal fruit mix",
       "basePrice": 100,
-      "image": "/images/fruit-salad.webp",
+      "image": "https://images.unsplash.com/photo-1564093497595-593b96d80180?w=800&q=80",
       "dietary": "dessert",
       "spicyLevel": 0
     },
@@ -1391,7 +1391,7 @@
       "category": "desserts",
       "description": "Bottle gourd milk pudding",
       "basePrice": 110,
-      "image": "/images/kaddu-kheer.webp",
+      "image": "https://images.unsplash.com/photo-1606490248447-6f2f21e61acd?w=800&q=80",
       "dietary": "dessert",
       "spicyLevel": 0
     },
@@ -1401,7 +1401,7 @@
       "category": "desserts",
       "description": "Classic Indian sweet dumplings",
       "basePrice": 80,
-      "image": "/images/gulab-jamun.webp",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80",
       "dietary": "dessert",
       "popular": true,
       "spicyLevel": 0
@@ -1412,7 +1412,7 @@
       "category": "desserts",
       "description": "Hyderabadi special sweet",
       "basePrice": 140,
-      "image": "/images/dil-firdaus.webp",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80",
       "dietary": "dessert",
       "featured": true,
       "spicyLevel": 0

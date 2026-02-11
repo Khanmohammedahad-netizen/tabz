@@ -144,7 +144,7 @@ export default function MenuPage() {
                                             {/* Item Image */}
                                             <div className="relative h-48 overflow-hidden">
                                                 <img
-                                                    src={getCategoryImage(item.category)}
+                                                    src={item.image}
                                                     alt={item.name}
                                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                                 />
@@ -221,29 +221,4 @@ export default function MenuPage() {
             </div>
         </div>
     );
-}
-
-// Helper function to get category-specific images from Unsplash
-function getCategoryImage(category: string): string {
-    const imageMap: Record<string, string> = {
-        'chicken-starters': 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80', // Chicken kebabs
-        'mutton-starters': 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80', // Mutton kebabs
-        'fish-seafood': 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80', // Grilled fish
-        'veg-starters': 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80', // Paneer tikka
-        'chinese-non-veg': 'https://images.unsplash.com/photo-1525755662778-989d0524087e?w=600&q=80', // Chicken 65
-        'chinese-veg': 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80', // Chilli paneer
-        'chicken-curries': 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80', // Butter chicken
-        'mutton-curries': 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80', // Mutton curry
-        'veg-curries': 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=80', // Paneer curry
-        'rice-pulao': 'https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=600&q=80', // Rice
-        'biryani': 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80', // Biryani
-        'mandi': 'https://images.unsplash.com/photo-1645177628172-a94c30a5f136?w=600&q=80', // Mandi rice platter
-        'burgers': 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80', // Burger
-        'sandwiches': 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80', // Sandwich
-        'wraps': 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&q=80', // Wrap
-        'fries-nuggets': 'https://images.unsplash.com/photo-1576107232684-1279f390859f?w=600&q=80', // Fries
-        'broast': 'https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80', // Fried chicken
-        'desserts': 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80', // Indian sweets
-    };
-    return imageMap[category] || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80'; // Default food
 }
