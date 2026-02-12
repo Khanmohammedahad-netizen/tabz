@@ -19,7 +19,7 @@ export default function HomePage() {
   const heroScale = useTransform(scrollYProgress, [0, 0.3], [1, 0.95]);
 
   useEffect(() => {
-    // 3D Card Animations
+    // 3D Card Animations - trigger once only
     const cards = document.querySelectorAll('.animate-card');
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -42,17 +42,17 @@ export default function HomePage() {
             trigger: card,
             start: 'top bottom-=100',
             end: 'top center',
-            toggleActions: 'play none none reverse',
+            once: true, // Only animate once
           },
         }
       );
     });
 
-    // Parallax for images
+    // Parallax for images - smoother on mobile
     const images = document.querySelectorAll('.parallax-image');
     images.forEach((img) => {
       gsap.to(img, {
-        y: -50,
+        y: -30, // Reduced movement for mobile
         ease: 'none',
         scrollTrigger: {
           trigger: img,
@@ -63,7 +63,7 @@ export default function HomePage() {
       });
     });
 
-    // Stagger fade-in for text elements
+    // Stagger fade-in for text elements - once only
     gsap.fromTo(
       '.stagger-text',
       { opacity: 0, y: 30 },
@@ -75,6 +75,7 @@ export default function HomePage() {
         scrollTrigger: {
           trigger: '.stagger-text',
           start: 'top bottom-=50',
+          once: true, // Only animate once
         },
       }
     );
@@ -307,7 +308,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "-50px" }}
                 className="animate-card"
               >
                 <Card hover3d className="group cursor-pointer overflow-hidden">
@@ -400,7 +401,7 @@ export default function HomePage() {
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.2 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
                   className="animate-card"
                 >
                   <Card glass className="text-center p-8 hover:shadow-glow-gold transition-shadow duration-300">
